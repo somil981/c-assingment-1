@@ -3,12 +3,16 @@ using namespace std;
 
 int main(){
   
-    int x = 542;
-    int y = 343;
+  int length, breath;
+    cout<<"length of rectangle";
+    cin >> length ;
   
-cout<<(x+y)<<endl;
+    cout<<"breath of rectangle";
+    cin >> breath ;
+  
+  int area = length * breath;
+    cout<<"area = "<< area << endl;
 
-return 0;    
-
+return 0;   
 
 }
